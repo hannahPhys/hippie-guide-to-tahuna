@@ -25,26 +25,25 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
+        icon: `${__dirname}/src/images/icon.jpeg`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        display: `minimal-ui`
       },
     },
     {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `gpupk0ukf44h`,
-        accessToken: `MyrMJb5s8-YVBXKMOouZeLKJa3aiuiVhpOCP9Csdp8Y`,
+        accessToken: `y6rjtHD5jQRi-jLc_m1N13LSGJZ2rqzsGbCc0zrYzzA`,
       },
     },
   ],
